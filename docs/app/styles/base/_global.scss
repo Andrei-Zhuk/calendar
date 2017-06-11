@@ -1,0 +1,30 @@
+.menu > li {
+    display: inline-block;
+
+    margin: 0 5px;
+
+    a {
+        color: #fff;
+        background-color: #404040;
+    }
+
+    & a:hover {
+        background-color: #141414;
+    }
+}
+
+.menu-text {
+    position: absolute;
+    background-color: transparent;
+    left: 20px;
+    padding: 0;
+    top: 0;
+}
+
+.top-bar {
+    margin-bottom: 30px;
+}
+
+.menu {
+    margin-left: 300px;
+}

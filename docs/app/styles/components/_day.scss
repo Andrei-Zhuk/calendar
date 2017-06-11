@@ -1,0 +1,55 @@
+.day {
+    display: inline-block;
+    width: 14.28%;
+    vertical-align: top;
+    border: 2px solid grey;
+    height: 70px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+
+
+    &-active {
+
+    }
+
+    &-non-active {
+        visibility: hidden;
+    }
+
+    &-current {
+        background-color: blue;
+    }
+
+    &__number {
+        line-height: 70px;
+    }
+
+    &__event {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+
+        &-event {
+            background-color: green;
+        }
+
+        &-deadline {
+            background-color: red;
+        }
+
+        &-webinar {
+            background-color: blue;
+        }
+
+        &-lecture {
+            background-color: brown;
+        }
+
+        &-workshop {
+            background-color: orange;
+        }
+    }
+}
